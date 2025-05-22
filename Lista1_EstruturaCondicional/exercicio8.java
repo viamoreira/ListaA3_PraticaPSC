@@ -5,6 +5,7 @@
  * 16 ATÉ 30 = ADULTO
  * ACIMA DE 30 =  SENIOR
  */
+package Lista1_EstruturaCondicional;
 
 import java.util.Scanner;
 

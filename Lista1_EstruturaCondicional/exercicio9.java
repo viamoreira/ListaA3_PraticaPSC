@@ -3,6 +3,8 @@
 - eleitor obrigatório (entre a faixa de 18 e menor de 65 anos);
 - eleitor facultativo (de 16 até 18 anos e maior de 65 anos, inclusive) */
 
+package Lista1_EstruturaCondicional;
+
 import java.util.Scanner;
 
 public class exercicio9 {
@@ -13,14 +15,19 @@ int idade;
 
 //Entradas do usuário
 Scanner teclado = new Scanner (System.in);
-System.out.println("Digite a sua idade:");
+System.out.println("Digite a sua idade para verificar sua classe eleitoral:");
 idade = teclado.nextInt();
 
-/*Lógica
+//Lógica
     if (idade < 16){
         System.out.println("Não eleitor");
     }
-    else if (idade )*/
+    else if (idade >= 18 && idade < 65 ) {
+        System.out.println("Eleitor obrigatório");
+    }
+    else {
+        System.out.println("Eleitor facultativo");
+    }
 
 teclado.close();
     }      

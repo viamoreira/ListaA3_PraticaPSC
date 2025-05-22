@@ -1,3 +1,4 @@
+package Lista1_EstruturaCondicional;
 /*Construa um programa para determinar se o indivíduo está com um peso favorável. Essa situação é determinada através do IMC (Índice de Massa Corpórea), que é definida como sendo a relação entre o peso (PESO – em kg) e o quadrado da Altura (ALTURA – em m) do indivíduo. Ou seja,IMC= PESO/ALTURA2 e, a situação do peso é determinada pela tabela abaixo: 
  * IMC ABAIXO DE 20 = ABAIXO DO PESO
  * IMC DE 20 ATÉ 25 = PESO NORMAL

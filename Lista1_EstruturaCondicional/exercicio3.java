@@ -1,3 +1,4 @@
+package Lista1_EstruturaCondicional;
 /*COMANDO
 Faça um programa que receba 3 notas de um aluno, calcule e mostre uma mensagem de acordo com sua média:
 >= 0 e <3 --> Reprovado
