@@ -1,10 +1,10 @@
-package Lista1_EstruturaCondicional;
 /*COMANDO
 Faça um programa que receba 3 notas de um aluno, calcule e mostre uma mensagem de acordo com sua média:
 >= 0 e <3 --> Reprovado
 >= 3 e <7 --> Exame
 >= 7 e <=10 --> Aprovado 
 */
+package Lista1_EstruturaCondicional;
 
 import java.util.Scanner;
 
