@@ -2,5 +2,24 @@
 package Lista2_Repeticao;
 
 public class exercicio11 {
-    
+    public static void main(String[] args) {
+
+//Variáveis        
+    double populacao_bruzundangas = 90000000; 
+    double populacao_milanos = 200000000;    
+    double taxa_bruz = 0.03;   
+    double taxa_milanos = 0.015; 
+    int anos = 0;
+
+
+//Lógica
+    while (populacao_bruzundangas < populacao_milanos) {
+           populacao_bruzundangas =populacao_bruzundangas * (1 + taxa_bruz);
+            populacao_milanos = populacao_milanos * (1 + taxa_milanos);
+            anos++;
+        }
+
+System.out.println("Serão necessários " + anos + " anos para que a população dos Bruzundangas alcance ou ultrapasse a dos Milanos.");
+
+    }
 }

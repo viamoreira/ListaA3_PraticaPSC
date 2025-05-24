@@ -2,5 +2,16 @@
 package Lista2_Repeticao;
 
 public class exercicio2 {
-    
+    public static void main(String[] args) {
+
+//Variáveis
+int numero = 0;
+
+//Lógica
+while (numero < 10001) {
+    System.out.println(numero);
+    numero = numero + 1000;
+    }
+
+ }    
 }
