@@ -35,5 +35,6 @@ public class exercicio12 {
                 System.out.println("Aluno " + (i + 1) + ": " + notas[i]);
             }
         }
+        sc.close();
     }
 }

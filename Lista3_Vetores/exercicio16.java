@@ -31,5 +31,6 @@ public class exercicio16 {
         }
 
         System.out.println("Você acertou " + acertos + " número(s).");
+        sc.close();
     }
 }

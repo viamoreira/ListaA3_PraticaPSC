@@ -37,5 +37,6 @@ public class exercicio10 {
         }
 
         System.out.println("\nQuantidade de ímpares: " + contImpares);
+        sc.close();
     }
 }

@@ -1,23 +1,22 @@
-// Livia Gonçalves Moreira
-// QUESTÃO Nº12
+
 // Sub-rotinas para analisar características de 5 habitantes (sexo, olhos, cabelos, idade)
 
 import java.util.Scanner;
 
-public class Lista_5_questao_12 {
+public class exercicio12 {
     public static void main(String[] args) {
         char[] sexo = new char[5];
         char[] olhos = new char[5];
         char[] cabelo = new char[5];
         int[] idade = new int[5];
 
-        Scanner sc = new Scanner(System.in);
-
-        for (int i = 0; i < 5; i++) {
-            System.out.print("Sexo (M/F): "); sexo[i] = sc.next().toUpperCase().charAt(0);
-            System.out.print("Olhos (A/C): "); olhos[i] = sc.next().toUpperCase().charAt(0);
-            System.out.print("Cabelo (L/P/C): "); cabelo[i] = sc.next().toUpperCase().charAt(0);
-            System.out.print("Idade: "); idade[i] = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            for (int i = 0; i < 5; i++) {
+                System.out.print("Sexo (M/F): "); sexo[i] = sc.next().toUpperCase().charAt(0);
+                System.out.print("Olhos (A/C): "); olhos[i] = sc.next().toUpperCase().charAt(0);
+                System.out.print("Cabelo (L/P/C): "); cabelo[i] = sc.next().toUpperCase().charAt(0);
+                System.out.print("Idade: "); idade[i] = sc.nextInt();
+            }
         }
 
         double media = mediaIdadeCastanhoPreto(olhos, cabelo, idade);

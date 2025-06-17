@@ -11,6 +11,7 @@ public class exercicio4 {
         System.out.print("Digite o valor atual: "); double valorAtual = sc.nextDouble();
         double percentual = calcularAumento(valorAntigo, valorAtual);
         System.out.printf("Percentual de acréscimo: %.2f%%", percentual);
+        sc.close();
     }
 
     public static double calcularAumento(double antigo, double atual) {

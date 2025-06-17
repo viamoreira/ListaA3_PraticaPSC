@@ -1,10 +1,9 @@
-// Livia Gonçalves Moreira
-// QUESTÃO Nº13
+
 // Sub-rotina que receba dois vetores A e B e retorne vetor C com elementos de A e B em ordem decrescente
 
 import java.util.*;
 
-public class Lista_5_questao_13 {
+public class exercicio13 {
     public static void main(String[] args) {
         int[] A = {1, 3, 5, 7, 9, 2, 4, 6, 8, 10};
         int[] B = {11, 13, 12, 15, 14, 20, 18, 16, 19, 17};

@@ -1,8 +1,7 @@
-// Livia Gonçalves Moreira
-// QUESTÃO Nº11
+
 // Sub-rotina que retorne vetor com os três primeiros números perfeitos
 
-public class Lista_5_questao_11 {
+public class exercicio11 {
     public static void main(String[] args) {
         int[] perfeitos = encontrarPerfeitos(3);
         System.out.print("Primeiros números perfeitos: ");

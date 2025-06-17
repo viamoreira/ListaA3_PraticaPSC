@@ -1,11 +1,10 @@
-// Livia Gonçalves Moreira
-// QUESTÃO Nº15
+
 // Sub-rotina que recebe pares de inteiros x < y e retorna soma de primos entre eles
 // O algoritmo encerra quando x == y
 
 import java.util.Scanner;
 
-public class Lista_5_questao_15 {
+public class exercicio15 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (true) {
@@ -16,6 +15,7 @@ public class Lista_5_questao_15 {
             int soma = somarPrimosEntre(x, y);
             System.out.println("Soma dos primos entre " + x + " e " + y + ": " + soma);
         }
+        sc.close();
     }
 
     public static int somarPrimosEntre(int x, int y) {

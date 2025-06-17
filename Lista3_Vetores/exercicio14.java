@@ -28,5 +28,6 @@ public class exercicio14 {
         for (int n : multiplicacao) System.out.print(n + " ");
         System.out.print("\nDivisão: ");
         for (double d : divisao) System.out.printf("%.2f ", d);
+        sc.close();
     }
 }

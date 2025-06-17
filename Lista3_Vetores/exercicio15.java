@@ -17,5 +17,6 @@ public class exercicio15 {
 
         System.out.println("Vetor atualizado:");
         for (int n : vetor) System.out.print(n + " ");
+        sc.close();
     }
 }

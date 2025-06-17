@@ -22,6 +22,7 @@ public class exercicio13 {
             if (vetor[i] == numero) {
                 System.out.println("Número encontrado na posição: " + i);
                 encontrado = true;
+                sc.close();
             }
         }
 

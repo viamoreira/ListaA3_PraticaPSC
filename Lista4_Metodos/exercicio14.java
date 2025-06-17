@@ -1,8 +1,7 @@
-// Livia Gonçalves Moreira
-// QUESTÃO Nº14
+
 // Sub-rotina que receba uma matriz 5x5 e retorne a soma de seus elementos
 
-public class Lista_5_questao_14 {
+public class exercicio14 {
     public static void main(String[] args) {
         int[][] matriz = {
             {1, 2, 3, 4, 5},

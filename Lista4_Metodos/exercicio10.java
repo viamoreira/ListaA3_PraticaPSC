@@ -1,8 +1,7 @@
-// Livia Gonçalves Moreira
-// QUESTÃO Nº10
+
 // Sub-rotina que receba um vetor A com 10 elementos e retorne vetor B com os fatoriais dos elementos de A
 
-public class Lista_5_questao_10 {
+public class exercicio10 {
     public static void main(String[] args) {
         int[] A = {1, 2, 3, 4, 5, 3, 2, 6, 4, 3};
         long[] B = new long[10];
